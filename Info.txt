@@ -1,0 +1,11 @@
+Microsoft.AspNetCore.App 6.0.18
+Microsoft.AspNetCore.App 7.0.7
+Microsoft.NETCore.App 6.0.18
+Microsoft.NETCore.App 7.0.7
+Microsoft.WindowsDesktop.App 6.0.18
+Microsoft.WindowsDesktop.App 7.0.7
+
+dotnet dev-certs https --trust
+ 
+dotnet dev-certs https --clean
+dotnet dev-certs https --trust
